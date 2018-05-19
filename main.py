@@ -118,7 +118,7 @@ def dominion_basic_actions(a_c, gold, actions, buys):
     elif a_c == chapel:
         d = 0
         while d < 4:
-            c_c = card_in_list(p.hand, "Choose card to thrash. 0 = none")
+            c_c = card_in_list(p.hand, "Choose card to trash. 0 = none")
             if c_c == False:
                 break
             else:
